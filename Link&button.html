@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Styling of link and buttons</title>
+
+    <style>
+        .container{
+            border:2px solid red;
+            background-color: lightblue;
+            padding:35px;
+            margin: 30px auto;
+            width: 660px;
+        }
+        a{
+
+            text-decoration: none;
+        }
+        a:hover{
+            color: red;
+            background-color: #e68689;
+        }
+        a:visited{
+            background-color: #c800ff;
+        }
+        a:active{
+            background-color: red;
+        }
+        .button{
+            background-color: #00ffc4;
+            padding: 5px;
+            border: #5f138b;
+            cursor: zoom-out;
+            font-size: 15px;
+            border-radius: 5px;
+        }
+
+        button:hover{
+            background-color: #0a6640;
+        }
+        button:visited{
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+   <div class="container" id="vrk1">
+       <h3>This is the heading</h3>
+       <p>I am vikram and i am frnt-end web developer</p>
+       <a href="https://google.com" class="button">Read more</a>
+       <button class="button">Visit here</button>
+   </div>
+</body>
+</html>
